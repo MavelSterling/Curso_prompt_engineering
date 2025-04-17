@@ -1,0 +1,53 @@
+¿Qué son los embeddings y por qué son fundamentales en inteligencia artificial?
+
+En el corazón del funcionamiento de herramientas como ChatGPT, traductores automáticos, motores de búsqueda o sistemas de recomendación, se encuentra un concepto clave: los embeddings. Pero ¿qué son exactamente?
+
+- Comprendiendo los embeddings
+
+Un embedding es una representación numérica de un dato —por ejemplo, una palabra, una frase, una imagen o un documento— codificada en un vector de múltiples dimensiones. A través de este proceso, lo que para nosotros es lenguaje, emoción o significado, se transforma en datos que una máquina puede procesar y comparar.
+
+Estos vectores no son simples coordenadas arbitrarias: están organizados en un espacio llamado espacio vectorial de alta dimensión, donde la cercanía entre dos puntos refleja la similitud semántica entre los conceptos que representan.
+
+----------
+¿Cómo se pueden entender los vectores de manera sencilla?
+
+Imagina que quieres encontrar un libro en una biblioteca. Para localizarlo necesitas varios datos: piso, pasillo, estantería, fila y posición. Cada uno de estos datos añade una dimensión a tu búsqueda.
+
+De forma análoga, un vector es como una “dirección” en un espacio con múltiples ejes (dimensiones). En un espacio bidimensional tienes ejes X e Y. En uno tridimensional añades el eje Z. Ahora imagina un espacio con cientos o miles de dimensiones: es ahí donde viven los embeddings de los modelos de lenguaje.
+
+Cada palabra, frase o documento se convierte en un punto con coordenadas específicas dentro de este espacio n-dimensional. Así, conceptos similares terminan ubicándose cerca unos de otros.
+
+----------
+Ejemplos cotidianos para visualizar estos conceptos
+
+1. Reseña de un restaurante
+Cuando calificas un restaurante, no lo haces con una sola palabra. Evalúas la comida, el ambiente, el servicio, la música, el precio, y tal vez subes fotos. Cada uno de estos aspectos representa una dimensión de tu experiencia. Esa combinación de características crea un “vector” que describe tu opinión de manera única.
+
+2. Dirección en Google Maps
+Dar una dirección completa implica múltiples datos: país, ciudad, barrio, calle, número, código postal. Cada uno representa una dimensión que te ubica con precisión. Cuantas más dimensiones tengas, más exacta será la localización. Así funcionan los embeddings para palabras y significados.
+
+----------
+
+¿Qué papel juega la similitud semántica?
+
+Una de las fortalezas de los embeddings es que agrupan elementos con significados similares, incluso si se expresan de formas distintas o en diferentes idiomas.
+
+Por ejemplo, las palabras "aguacate" y "avocado" ocupan posiciones cercanas en el espacio vectorial, porque comparten muchas características (fruta, verde, textura suave, alimento saludable). Gracias a esta cercanía, los modelos pueden:
+
+- Traducir de un idioma a otro sin depender de reglas tradicionales.
+
+- Entender sinónimos o reformulaciones.
+
+- Inferir el contexto general incluso con palabras nuevas o poco comunes.
+
+----------
+
+¿Por qué la elección de palabras en un prompt es tan importante?
+
+Cuando interactúas con un modelo como ChatGPT, cada palabra que usas influye en cómo el modelo interpreta y genera una respuesta. Esto ocurre porque las palabras guían al modelo hacia ciertas áreas dentro del espacio vectorial:
+
+Si escribes perro, el modelo buscará respuestas cercanas a ese concepto: mascota, animal, veterinario.
+
+Si escribes banano, el modelo se moverá a un área distinta: fruta, comida, tropical.
+
+Pequeños cambios en tu elección de palabras pueden provocar grandes diferencias en la salida generada.
