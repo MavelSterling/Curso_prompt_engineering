@@ -1,0 +1,52 @@
+Resumen
+
+¿Qué es un LLM?
+
+Un LLM (Large Language Model o Modelo de Lenguaje de Gran Escala) es una tecnología basada en inteligencia artificial entrenada con enormes cantidades de texto. Puede imaginarse como una biblioteca inmensa que no solo almacena todo lo que se ha escrito, sino que también "comprende" el contenido y es capaz de generar texto coherente a partir de ese conocimiento. Aunque no tiene conciencia ni emociones, este modelo puede anticipar con notable precisión cuál podría ser la siguiente palabra o frase en un contexto dado. Esto le permite interactuar de forma fluida y realizar tareas complejas de procesamiento del lenguaje natural.
+
+¿Cuáles son las capacidades de un LLM?
+
+Un LLM bien entrenado y adecuadamente instruido puede desempeñarse con competencias similares a las de un profesional recién graduado en diversas áreas. Entre sus habilidades destacan:
+
+- Redacción y resumen de textos.
+- Identificación de patrones lingüísticos o temáticos.
+- Análisis y estructuración de información compleja.
+
+Estas capacidades lo convierten en una herramienta versátil para múltiples usos en entornos laborales, académicos y creativos.
+
+¿Por qué es importante redactar buenos prompts?
+
+El rendimiento de un LLM depende en gran medida de la calidad de las instrucciones que recibe, conocidas como prompts. Un buen prompt no se trata de una instrucción extensa, sino de una instrucción precisa, clara y orientada al objetivo. Es decir, cada palabra cuenta. Un prompt bien diseñado permite guiar al modelo hacia una respuesta más útil, coherente y relevante.
+
+¿Cómo redactar instrucciones efectivas?
+
+Para que un modelo de lenguaje genere resultados realmente útiles y alineados con tus objetivos, no basta con escribir una pregunta o dar una orden genérica. Es necesario construir instrucciones (prompts) que sean claras, específicas y contextualizadas. A continuación, se detallan algunas recomendaciones clave para lograrlo:
+
+1. Sintetiza tus ideas con claridad
+
+Antes de pedirle algo al modelo, asegúrate de tener claridad sobre lo que necesitas. Redacta tu petición de forma directa, evitando ambigüedades o ideas demasiado generales. El modelo funciona mejor cuando comprende con precisión lo que se le está solicitando.
+
+> Ejemplo: En lugar de decir “Hazme un resumen”, es preferible indicar:  
+> “Resume en cinco puntos las ideas principales del siguiente texto académico, enfocándote en sus aportes teóricos”.
+
+2. Define el rol que el modelo debe asumir
+
+Los modelos como ChatGPT pueden adoptar distintos “roles” según el contexto que se les indique. Puedes pedirle que actúe como redactor, asesor legal, experto en marketing, profesor, programador, entre otros. Esto ayuda a ajustar el tono, el nivel de detalle y el enfoque de la respuesta.
+
+> Ejemplo: “Actúa como asesor financiero y explícame los riesgos y beneficios de invertir en bonos del gobierno”.
+
+3. Establece límites o restricciones concretas
+Es importante definir parámetros específicos para acotar la respuesta, como la longitud del texto, el formato esperado, el público al que va dirigido, o incluso el estilo de redacción (formal, técnico, persuasivo, etc.). Estos límites permiten que el resultado sea más preciso y útil.
+
+> Ejemplo: “Escribe una introducción de no más de 150 palabras, en un tono técnico, para un artículo científico sobre inteligencia artificial aplicada a la medicina”.
+
+4. Proporciona ejemplos del resultado que se espera
+
+Si se tiene una idea clara de cómo debería verse la salida del modelo, incluir un ejemplo puede ser muy útil. Esto reduce la incertidumbre y mejora la calidad de la respuesta, ya que el modelo toma ese ejemplo como una referencia directa del estilo o estructura deseada.
+
+> Ejemplo: “Quiero un mensaje similar a este: ‘Gracias por tu tiempo en la entrevista. Me pareció muy interesante conocer más sobre el equipo y la cultura de la empresa…’. Hazlo más informal y breve”.
+
+
+Un prompt bien formulado actúa como una guía precisa para el modelo. Cuanto más claro seas al describir qué necesitas, qué rol debe asumir el modelo, qué formato deseas y qué ejemplo puede seguir, mejores serán los resultados. Aprender a estructurar correctamente estas instrucciones es fundamental para aprovechar al máximo el potencial de la inteligencia artificial en cualquier contexto.
+
+
