@@ -1,0 +1,115 @@
+El mecanismo de atención y razonamiento en modelos de inteligencia artificial
+
+¿Sabías que tanto el cerebro humano como modelos de lenguaje como ChatGPT comparten ciertos principios para razonar y anticipar respuestas? Dos de los más importantes son el priming (o preparación mental) y el mecanismo de atención. Comprender cómo funcionan estos elementos es clave para dominar el diseño de prompts y el uso efectivo de herramientas de inteligencia artificial.
+
+------
+
+¿Qué es el priming y cómo afecta nuestras decisiones?
+
+El priming es un fenómeno estudiado en psicología cognitiva que describe cómo un estímulo previo puede influir, de manera inconsciente, en nuestra respuesta ante un estímulo posterior. Es una especie de “preparación mental” que cambia nuestras percepciones sin que nos demos cuenta.
+
+Ejemplo cotidiano:
+Si escuchas varias sumas sencillas seguidas —por ejemplo, 1+1, 2+2, 3+3— y luego te piden mencionar una verdura rápidamente, muchas personas responden “zanahoria” o “brócoli”. Aunque no tenga sentido lógico directo, ese patrón repetitivo activa regiones del cerebro relacionadas con respuestas rápidas, y las personas tienden a coincidir en la respuesta.
+
+Esto demuestra que:
+
+- El cerebro prioriza estímulos recientes.
+
+- Incluso estímulos irrelevantes en apariencia pueden condicionar nuestras decisiones.
+
+- El efecto puede ser colectivo, provocando coincidencias entre personas que no se han comunicado entre sí.
+
+------
+
+¿Cómo aplican este principio los modelos como ChatGPT?
+
+Los modelos de lenguaje también utilizan una forma de priming. Cada palabra o frase que introduces sirve como “preparación” para las siguientes respuestas del modelo. No se trata de memoria permanente, sino de cómo se estructura la probabilidad contextual de cada palabra siguiente con base en lo que ya ha leído.
+
+
+------
+
+¿Qué es el mecanismo de atención en LLMs?
+
+En modelos como ChatGPT, el mecanismo de atención es una técnica que permite que el modelo enfoque su "atención" en las partes más relevantes de un texto para generar una respuesta más coherente y precisa. No todas las palabras tienen el mismo peso: algunas son más importantes que otras para entender el significado de una oración.
+
+Ejemplo:
+Considera la frase:
+"El gato negro está durmiendo en el sillón."
+
+El modelo asigna más peso a ciertas palabras:
+
+- “Gato” define el sujeto principal.
+
+- “Durmiendo” indica una acción probable.
+
+- “Negro” y “sillón” son descripciones que complementan.
+
+Este sistema de pesos dinámicos permite al modelo:
+
+- Predecir la siguiente palabra con precisión.
+
+- Identificar relaciones entre conceptos incluso si están separados por varias palabras.
+
+- Entender el contexto completo, y no solo la última palabra como lo haría un teclado predictivo tradicional.
+
+------
+
+¿Qué es la ventana de contexto y por qué es importante?
+
+La ventana de contexto define la cantidad total de información (expresada en tokens) que un modelo puede procesar simultáneamente para generar una respuesta.
+
+- En GPT-4, esta ventana puede alcanzar hasta 128.000 tokens, lo que equivale a unas 160 páginas de texto en inglés.
+
+- En español, debido a que las palabras tienden a ser más largas, se cubre un poco menos contenido con la misma cantidad de tokens.
+
+¿Cómo se usa?
+
+- El modelo analiza toda la conversación previa dentro de esa ventana para dar continuidad a la interacción.
+
+- Cuando se excede este límite, el modelo comienza a “olvidar” partes del texto más antiguas, no porque tenga fallos, sino porque deben descartarse para priorizar lo más reciente.
+
+------
+
+¿Cómo influye el priming en tus conversaciones con ChatGPT?
+
+Cuando escribes una serie de frases con una estructura determinada (como ejercicios repetitivos o frases con cierto tono emocional), estás condicionando al modelo a seguir un patrón. Esto se conoce como prompt priming y tiene efectos reales:
+
+- Guía el estilo de la respuesta (formal, casual, técnico, etc.).
+
+- Influye en el tipo de contenido generado (si introduces humor, el modelo probablemente lo mantenga).
+
+- Puede generar sesgos involuntarios si se dan ejemplos que condicionen la respuesta.
+
+Ejemplo real:
+
+- Si haces varias preguntas sobre frutas y luego pides que el modelo mencione una comida, es más probable que elija una fruta como respuesta.
+
+- Si introduces un texto cargado de términos financieros, es probable que la respuesta tenga un tono más técnico y profesional.
+
+------
+
+¿Por qué esto importa para escribir buenos prompts?
+
+Saber que el modelo atiende al contexto previo y que cada palabra tiene peso semántico te permite diseñar mejores instrucciones. Un prompt bien construido:
+
+- Define el contexto desde el inicio (priming).
+
+- Utiliza lenguaje específico que guíe la atención del modelo.
+
+- Limita ambigüedades para obtener respuestas claras y útiles.
+
+-------
+
+Conclusión
+
+El priming y la atención no solo son conceptos aplicables al comportamiento humano: son también pilares del funcionamiento interno de los LLMs. Al entender estos mecanismos:
+
+- Puedes anticipar cómo responderá el modelo.
+
+- Mejoras la calidad de tus interacciones.
+
+- Desarrollas habilidades de ingeniería de prompts avanzadas, necesarias para aprovechar todo el potencial de la IA generativa.
+
+
+
+
