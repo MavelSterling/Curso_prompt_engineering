@@ -1,0 +1,84 @@
+Comprendiendo la tokenización en modelos de lenguaje (LLM)
+
+Uno de los elementos fundamentales para entender cómo funciona un modelo de lenguaje —como GPT, Claude o LLaMA— es conocer qué es un token y cómo estos modelos fragmentan el texto que les damos. Antes de que un modelo pueda representar una palabra como un vector (embedding), debe primero decidir qué es una unidad de significado útil. A ese proceso se le conoce como tokenización.
+
+Embeddiings -> Representaciones vectoriales de las palabras que tienen n dimensiones cuyo fin es darle características a esa palabra, poder llegar a ella, encontrar relaciones semánticas
+
+------
+
+¿Qué es la tokenización y cómo funciona?
+
+La tokenización es el proceso mediante el cual un modelo de lenguaje descompone el texto en unidades más pequeñas llamadas tokens. Un token puede ser:
+
+- Una palabra completa (por ejemplo, “casa”)
+
+- Una raíz o prefijo (por ejemplo, “impre” de “impresionante”)
+
+- Un solo carácter (como “$” o “e”)
+
+- Un espacio o signo de puntuación
+
+Importante: Los tokens no siempre coinciden con palabras completas. Por ejemplo, en inglés, una palabra como unbelievable puede dividirse en los tokens: ["un", "believ", "able"].
+
+Mientras los humanos tendemos a dividir el lenguaje en palabras separadas por espacios, los LLMs utilizan algoritmos estadísticos y redes neuronales entrenados con millones de textos para determinar las divisiones más útiles, considerando patrones comunes, prefijos, sufijos y frecuencias de uso.
+
+------
+
+¿Por qué no se puede tokenizar todo igual?
+
+Imagina que un chef corta todos los ingredientes con la misma técnica, sin importar si está manejando una papa, una cebolla o un trozo de pescado. Aunque el resultado sea "uniforme", probablemente afecte el sabor y textura del plato.
+
+De forma similar, una tokenización demasiado rígida puede dificultar la comprensión del contexto. Por eso, los modelos modernos usan tokenizadores inteligentes, que adaptan la segmentación del texto según su idioma, estructura y contexto semántico. Este enfoque flexible permite que los modelos representen mejor el significado de cada parte del texto.
+
+------
+
+¿Por qué son importantes los tokens a nivel práctico?
+
+Cada vez que interactúas con un modelo como ChatGPT u OpenAI API, notarás términos como:
+
+- “context window” (ventana de contexto): límite de tokens que el modelo puede “ver” a la vez.
+
+- “token-based pricing”: se factura por número de tokens procesados.
+
+Esto tiene implicaciones reales:
+
+1. Costo: Los servicios de LLM cobran por tokens. Un texto largo o mal optimizado puede generar costos innecesarios.
+
+2. Capacidad del modelo: Los modelos tienen un límite máximo de tokens que pueden manejar en una sola solicitud (por ejemplo, 8,000, 32,000 o 128,000 tokens). Si se supera, debes dividir tu entrada o reducir su tamaño.
+
+3. Diseño de prompts: Conocer cómo se tokeniza tu texto te permite escribir prompts más compactos, claros y eficientes.
+
+Ejemplo:
+La palabra "internacionalización" podría dividirse en varios tokens: ["intern", "acional", "ización"]. Esto significa que ocupa más espacio en la ventana de contexto que palabras más cortas o comunes.
+
+------
+
+¿Cómo afectan las particularidades idiomáticas?
+
+La tokenización también se ve influenciada por las reglas y particularidades del idioma. Por ejemplo:
+
+- En español, los signos de interrogación de apertura (¿) y cierre (?) se tratan como tokens distintos.
+
+- Contracciones como "del" (de + el) o "al" (a + el) pueden tokenizarse diferente según el modelo.
+
+- Las mayúsculas y acentos también afectan la tokenización y, por tanto, la interpretación del significado.
+
+Un mal uso de estos elementos puede hacer que el modelo interprete erróneamente el tono, el contexto o incluso el idioma del prompt.
+
+------
+
+¿Por qué los LLMs son especialmente buenos escribiendo código?
+
+Los modelos de lenguaje han demostrado un rendimiento excepcional en la generación de código, y esto tiene varias explicaciones:
+
+- Disponibilidad de grandes volúmenes de datos: Existen millones de líneas de código disponibles públicamente en GitHub, Stack Overflow y otros sitios.
+
+- Estructura bien definida: La sintaxis del código (por ejemplo, en Python o JavaScript) es consistente, lógica y predecible, lo que facilita el aprendizaje del modelo.
+
+- Bajo nivel de ambigüedad semántica: A diferencia del lenguaje natural, donde las palabras pueden tener muchos significados, el código tiene una interpretación más directa y precisa.
+
+Por esta razón, incluso cuando el modelo enfrenta problemas matemáticos complejos, muchas veces lo resuelve generando automáticamente el código que puede ejecutar la solución, en lugar de razonar el problema paso a paso.
+
+------
+
+
